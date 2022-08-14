@@ -15,5 +15,5 @@ for k in range(m+n-1):
   for i in range(m):
     for j in range(n):
       if(i+j==k):
-        x[i][j]=int(input())
+        x[j][i]=int(input())
 print(x)
